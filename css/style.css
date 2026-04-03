@@ -52,14 +52,14 @@ body {
     font-size: 36px;
     line-height: 40px;
     font-weight: 700;
-    margin-bottom: 37px;
+    margin-bottom: 20px;
 }
 
 div.content .subtitle {
     font-size: 32px;
     line-height: 40px;
     font-weight: 700;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
     color: black;
 } /* вес 0.2.1 */
 
@@ -72,7 +72,7 @@ div.content .subtitle {
 .text-small {
     font-size: 20px;
     line-height: 28px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 
 /* стили для сетки */
