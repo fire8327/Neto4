@@ -22,7 +22,7 @@
     line-height: 16px;
     margin-bottom: 9px;
     font-weight: 400;
-}
+} /* вес 0.1.1 */
   
 p {
     font-size: 15px;
@@ -54,11 +54,13 @@ body {
     font-weight: 700;
 }
 
-.subtitle {
+div.content .subtitle {
     font-size: 32px;
     line-height: 40px;
     font-weight: 700;
-}
+    margin-bottom: 0;
+    color: black;
+} /* вес 0.2.1 */
 
 .text {
     font-size: 28px;
