@@ -1,100 +1,105 @@
 /* подключение шрифтов - font-face */
 @font-face {
-    font-family: "GolosText";
-    src: url("https://github.com/netology-code/html/blob/main/flex-elements-positioning/fonts/golostext-regular.ttf") format("ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-family: "GolosText";
+	src: url("https://github.com/netology-code/html/blob/main/flex-elements-positioning/fonts/golostext-regular.ttf") format("ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
-  
+
 @font-face {
-    font-family: "GolosText";
-    src: url("https://github.com/netology-code/html/blob/main/flex-elements-positioning/fonts/golostext-bold.ttf") format("ttf");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+	font-family: "GolosText";
+	src: url("https://github.com/netology-code/html/blob/main/flex-elements-positioning/fonts/golostext-bold.ttf") format("ttf");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
 }
 
 /* начало фрагмента - эти стили трогать нельзя, так как они переиспользуюся в других блоках и страницах сайта */
 .wrp h2 {
-    color: #015cab;
-    font-size: 13px;
-    line-height: 16px;
-    margin-bottom: 9px;
-    font-weight: 400;
-} /* вес 0.1.1 */
-  
+	color: #015cab;
+	font-size: 13px;
+	line-height: 16px;
+	margin-bottom: 9px;
+	font-weight: 400;
+}
+
+/* вес 0.1.1 */
+
 p {
-    font-size: 15px;
-    line-height: 18px;
+	font-size: 15px;
+	line-height: 18px;
 }
-  
+
 .author img {
-    width: 100px;
-    margin-bottom: 6px;
+	width: 100px;
+	margin-bottom: 6px;
 }
+
 /* конец фрагмента */
 /* стили студента */
 
 /* общие стили - обнуление, body*/
 body, h1, h2, p {
-    margin: 0;
+	margin: 0;
 }
 
 body {
-    font-family: "GolosText", sans-serif;
-    font-style: normal;
-    font-weight: normal;
+	font-family: "GolosText", sans-serif;
+	font-style: normal;
+	font-weight: normal;
 }
 
 /* стили для элементов внутри div.content */
 .title {
-    font-size: 36px;
-    line-height: 40px;
-    font-weight: 700;
-    margin-bottom: 22px;
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: 700;
+	margin-bottom: 22px;
 }
 
 div.content .subtitle {
-    font-size: 32px;
-    line-height: 40px;
-    font-weight: 700;
-    margin-bottom: 4px;
-    color: black;
-} /* вес 0.2.1 */
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 700;
+	margin-bottom: 4px;
+	color: black;
+}
+
+/* вес 0.2.1 */
 
 .text {
-    font-size: 28px;
-    line-height: 35px;
-    margin-bottom: 32px;
+	font-size: 28px;
+	line-height: 35px;
+	margin-bottom: 32px;
 }
 
 .text-small {
-    font-size: 20px;
-    line-height: 28px;
-    margin-bottom: 10px;
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 10px;
 }
 
 /* стили для сетки */
-.wrp { 
-    width: 1040px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px;
+.wrp {
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
 }
 
 .author {
-    width: 173px;
-    position: fixed;
-    top: 80px;
+	width: 173px;
+	position: fixed;
+	top: 80px;
 }
 
 #author-pic {
-    width: 69px;
-    height: 69px;
+	width: 69px;
+	height: 69px;
 }
 
 .content {
-    width: 750px;
-    padding-left: 210px;
+	width: 750px;
+	padding-left: 210px;
 }
